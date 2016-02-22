@@ -1,0 +1,116 @@
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #FFFACD;
+    color: black;
+    text-align: left;
+}
+
+
+th.centralizar {
+    background-color: #FFFACD;
+    color: black;
+    text-align: center;
+}
+
+a.titulo {
+	font-family: "Times New Roman";
+	color: black;
+	font-size: 25px;
+	border: 1px solid;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    background-color: #FFFACD;
+}
+
+h1.titulo {
+	font-family: "Times New Roman";
+	color: black;
+	font-size: 25px;
+	border: 1px solid;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    background-color: #FFFACD;
+}
+
+a.botao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	padding: 5px 10px;
+	background: -moz-linear-gradient(
+		top,
+		#d8e39a 0%,
+		#faffb8);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#d8e39a),
+		to(#faffb8));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #d5d6b4;
+	-moz-box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	text-shadow:
+		0px -1px 0px rgba(255,255,255,0.9),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+
+
+button.botao {
+	font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+	color: #000000;
+	padding: 5px 10px;
+	background: -moz-linear-gradient(
+		top,
+		#d8e39a 0%,
+		#faffb8);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#d8e39a),
+		to(#faffb8));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #d5d6b4;
+	-moz-box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	box-shadow:
+		0px 1px 3px rgba(221,227,179,0),
+		inset 0px 0px 1px rgba(230,245,179,0.6);
+	text-shadow:
+		0px -1px 0px rgba(255,255,255,0.9),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+
+
+fieldset.field {
+	border: 1;
+	width: 400px;
+	
+}

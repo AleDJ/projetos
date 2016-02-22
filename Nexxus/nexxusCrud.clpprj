@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\wamp\www\nexxusCrud.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Nexxus/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Nexxus/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp\www\model\tarefa.entidade.php;c:\wamp\www\Tarefa.php;c:\wamp\www\TarefaController.php;c:\wamp\www\assets;c:\wamp\www\assets\css;c:\wamp\www\assets\css\style.css;c:\wamp\www\assets\css\style.php;c:\wamp\www\assets\fonts;c:\wamp\www\assets\js;c:\wamp\www\model\Tarefa.php;"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<codestructure version="5.8">
+		<phptree>
+			<treenode node="controller/;PHP:PHP Include;c:\wamp\www\index.php;f18;7;29;7;;C:\wamp\www\index.php;f18;7;29;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="controller/tarefa.controller.php;PHP:PHP Include;c:\wamp\www\Codelobster0.php;f14;1;46;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="model/database.php;PHP:PHP Include;c:\wamp\www\index.php;f14;1;32;1;;C:\wamp\www\index.php;f14;1;32;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="model/tarefa.entidade.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f14;2;39;2;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+			</treenode>
+			<treenode node="model/tarefa.model.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f14;3;36;3;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+			</treenode>
+			<treenode node="model/tarefa.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.controller.php;f14;1;30;1;;C:\wamp\www\TarefaController.php;f14;1;30;1;;C:\wamp\www\controller\tarefa.controller.php;f14;1;30;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Database;PHP:Class Name;c:\wamp\www\model\Codelobster0.php;f0;1;1;9;;c:\wamp\www\model\database.php;f0;1;1;8;;;;vpos;;v;;r;;d14,1;;b0,0;;m">
+				<treenode node="Conectar;PHP:Function Name;c:\wamp\www\model\Codelobster0.php;f18;3;5;8;;c:\wamp\www\model\database.php;f18;3;5;7;;;;vpos;;v;;r;;d37,3;;b1,5;;m">
+					<treenode node="pdo;PHP:Var Name;c:\wamp\www\model\Codelobster0.php;f8;5;12;5;;c:\wamp\www\model\database.php;f8;4;12;4;;;;vposPDO;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="Tarefa;PHP:Class Name;c:\wamp\www\model\tarefa.php;f0;2;1;107;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
+				<treenode node="__CONSTRUCT;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;9;2;19;;;;vpos;;v;;r;;d1,10;;b1,0;;m">
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f18;15;20;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;13;8;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Actualizar;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;68;2;87;;;;vpos;;v;;r;;d1,69;;b1,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;c:\wamp\www\model\tarefa.php;f28;68;33;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f21;83;23;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;72;7;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;76;8;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Excluir;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;54;2;66;;;;vpos;;v;;r;;d1,55;;b1,0;;mid;;p">
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f21;62;23;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;c:\wamp\www\model\tarefa.php;f25;54;28;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="stm;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;58;7;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f10;58;15;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Listar;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;21;2;36;;;;vpos;;v;;r;;d1,22;;b1,0;;m">
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f18;32;20;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;25;10;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="stm;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;27;7;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f10;27;15;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Obtener;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;38;2;52;;;;vpos;;v;;r;;d1,39;;b1,0;;mid;;p">
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f21;48;23;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;c:\wamp\www\model\tarefa.php;f25;38;28;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="stm;PHP:Var Name;c:\wamp\www\model\tarefa.php;f3;42;7;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f10;42;15;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Registrar;PHP:Function Name;c:\wamp\www\model\tarefa.php;f8;89;2;106;;;;vpos;;v;;r;;d1,90;;b1,0;;mdata;;p">
+					<treenode node="data;PHP:Var Name;c:\wamp\www\model\tarefa.php;f34;89;39;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;PHP:Var Name;c:\wamp\www\model\tarefa.php;f21;102;23;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;c:\wamp\www\model\tarefa.php;f2;93;6;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\model\tarefa.php;f2;96;7;96;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="descricao;PHP:Var Name;c:\wamp\www\model\tarefa.php;f11;7;21;7;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;c:\wamp\www\model\tarefa.php;f11;6;14;6;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+				</treenode>
+				<treenode node="pdo;PHP:Var Name;c:\wamp\www\model\tarefa.php;f9;4;13;4;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="TarefaController;PHP:Class Name;c:\wamp\www\controller\tarefa.php;f0;5;1;53;;c:\wamp\www\controller\tarefa.controller.php;f0;3;1;46;;C:\wamp\www\TarefaController.php;f0;3;1;46;;C:\wamp\www\controller\tarefa.controller.php;f0;3;1;46;;;;vpos;;v;;r;;d22,3;;b0,0;;m">
+				<treenode node="__CONSTRUCT;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;9;2;11;;c:\wamp\www\controller\tarefa.controller.php;f11;7;5;9;;c:\wamp\www\controller\tarefa.controller.php;f11;7;5;9;;c:\wamp\www\controller\tarefa.controller.php;f11;7;5;9;;C:\wamp\www\TarefaController.php;f11;7;5;9;;C:\wamp\www\controller\tarefa.controller.php;f11;7;5;9;;;;vpos;;v;;r;;d33,7;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;10;7;10;;c:\wamp\www\controller\tarefa.controller.php;f8;8;13;8;;c:\wamp\www\controller\tarefa.controller.php;f8;8;13;8;;c:\wamp\www\controller\tarefa.controller.php;f8;8;13;8;;C:\wamp\www\controller\tarefa.controller.php;f8;8;13;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Atualizar;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;30;2;38;;;;vpos;;v;;r;;d28,30;;b1,0;;m">
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f20;33;29;33;;c:\wamp\www\controller\tarefa.controller.php;f20;33;29;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="tar;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;31;6;31;;c:\wamp\www\controller\tarefa.controller.php;f2;31;6;31;;;;vposTarefa;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;36;7;36;;c:\wamp\www\controller\tarefa.controller.php;f2;36;7;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Crud;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;19;2;28;;c:\wamp\www\controller\tarefa.controller.php;f11;17;5;27;;c:\wamp\www\controller\tarefa.controller.php;f11;17;5;27;;c:\wamp\www\controller\tarefa.controller.php;f11;17;5;27;;C:\wamp\www\TarefaController.php;f11;17;5;27;;C:\wamp\www\controller\tarefa.controller.php;f11;17;5;27;;;;vpos;;v;;r;;d26,17;;b1,0;;m">
+					<treenode node="view/footer.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;27;31;27;;c:\wamp\www\controller\tarefa.controller.php;f22;26;37;26;;c:\wamp\www\controller\tarefa.controller.php;f22;26;37;26;;c:\wamp\www\controller\tarefa.controller.php;f22;26;37;26;;C:\wamp\www\controller\tarefa.controller.php;f22;26;37;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="view/header.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;25;31;25;;c:\wamp\www\controller\tarefa.controller.php;f22;24;37;24;;c:\wamp\www\controller\tarefa.controller.php;f22;24;37;24;;c:\wamp\www\controller\tarefa.controller.php;f22;24;37;24;;C:\wamp\www\controller\tarefa.controller.php;f22;24;37;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="view/tarefa/tarefa-editar.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;26;45;26;;c:\wamp\www\controller\tarefa.controller.php;f22;25;51;25;;c:\wamp\www\controller\tarefa.controller.php;f22;25;51;25;;C:\wamp\www\controller\tarefa.controller.php;f22;25;51;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f12;22;21;22;;c:\wamp\www\controller\tarefa.controller.php;f17;20;26;20;;c:\wamp\www\controller\tarefa.controller.php;f17;20;26;20;;c:\wamp\www\controller\tarefa.controller.php;f17;20;26;20;;C:\wamp\www\controller\tarefa.controller.php;f17;20;26;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="tar;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;20;6;20;;c:\wamp\www\controller\tarefa.controller.php;f8;18;12;18;;c:\wamp\www\controller\tarefa.controller.php;f8;18;12;18;;C:\wamp\www\controller\tarefa.controller.php;f8;18;12;18;;;;vposTarefa;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f10;23;15;23;;c:\wamp\www\controller\tarefa.controller.php;f19;21;24;21;;c:\wamp\www\controller\tarefa.controller.php;f19;21;24;21;;c:\wamp\www\controller\tarefa.controller.php;f19;21;24;21;;C:\wamp\www\controller\tarefa.controller.php;f19;21;24;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Eliminar;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;49;2;52;;C:\wamp\www\TarefaController.php;f11;42;5;45;;;;vpos;;v;;r;;d30,42;;b1,0;;m">
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f25;50;34;50;;c:\wamp\www\controller\tarefa.controller.php;f31;43;40;43;;c:\wamp\www\controller\tarefa.controller.php;f31;43;40;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;50;7;50;;c:\wamp\www\controller\tarefa.controller.php;f8;43;13;43;;c:\wamp\www\controller\tarefa.controller.php;f8;43;13;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Excluir;PHP:Function Name;c:\wamp\www\controller\tarefa.controller.php;f11;42;5;45;;c:\wamp\www\controller\tarefa.controller.php;f11;42;5;45;;C:\wamp\www\controller\tarefa.controller.php;f11;42;5;45;;;;vpos;;v;;r;;d29,42;;b1,0;;m">
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.controller.php;f30;43;39;43;;c:\wamp\www\controller\tarefa.controller.php;f30;43;39;43;;C:\wamp\www\controller\tarefa.controller.php;f30;43;39;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.controller.php;f8;43;13;43;;c:\wamp\www\controller\tarefa.controller.php;f8;43;13;43;;C:\wamp\www\controller\tarefa.controller.php;f8;43;13;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Guardar;PHP:Function Name;C:\wamp\www\TarefaController.php;f11;29;5;40;;;;vpos;;v;;r;;d29,29;;b1,0;;m">
+				</treenode>
+				<treenode node="Index;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;13;2;17;;c:\wamp\www\controller\tarefa.controller.php;f11;11;5;15;;c:\wamp\www\controller\tarefa.controller.php;f11;11;5;15;;c:\wamp\www\controller\tarefa.controller.php;f11;11;5;15;;C:\wamp\www\TarefaController.php;f11;11;5;15;;C:\wamp\www\controller\tarefa.controller.php;f11;11;5;15;;;;vpos;;v;;r;;d27,11;;b1,0;;m">
+					<treenode node="view/footer.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;16;31;16;;c:\wamp\www\controller\tarefa.controller.php;f22;14;37;14;;c:\wamp\www\controller\tarefa.controller.php;f22;14;37;14;;c:\wamp\www\controller\tarefa.controller.php;f22;14;37;14;;C:\wamp\www\controller\tarefa.controller.php;f22;14;37;14;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+					</treenode>
+					<treenode node="view/header.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;14;31;14;;c:\wamp\www\controller\tarefa.controller.php;f22;12;37;12;;c:\wamp\www\controller\tarefa.controller.php;f22;12;37;12;;c:\wamp\www\controller\tarefa.controller.php;f22;12;37;12;;C:\wamp\www\controller\tarefa.controller.php;f22;12;37;12;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+					</treenode>
+					<treenode node="view/tarefa/tarefa.php;PHP:PHP Include;c:\wamp\www\controller\tarefa.php;f16;15;38;15;;c:\wamp\www\controller\tarefa.controller.php;f22;13;44;13;;c:\wamp\www\controller\tarefa.controller.php;f22;13;44;13;;C:\wamp\www\controller\tarefa.controller.php;f22;13;44;13;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Registrar;PHP:Function Name;c:\wamp\www\controller\tarefa.php;f8;40;2;47;;;;vpos;;v;;r;;d28,40;;b1,0;;m">
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f27;43;36;43;;c:\wamp\www\controller\tarefa.controller.php;f27;43;36;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="tar;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;41;6;41;;c:\wamp\www\controller\tarefa.controller.php;f2;41;6;41;;;;vposTarefa;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f2;45;7;45;;c:\wamp\www\controller\tarefa.controller.php;f2;45;7;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Salvar;PHP:Function Name;c:\wamp\www\controller\tarefa.controller.php;f11;29;5;40;;c:\wamp\www\controller\tarefa.controller.php;f11;29;5;40;;C:\wamp\www\controller\tarefa.controller.php;f11;29;5;40;;;;vpos;;v;;r;;d28,29;;b1,0;;m">
+					<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\controller\tarefa.controller.php;f19;32;28;32;;c:\wamp\www\controller\tarefa.controller.php;f19;32;28;32;;C:\wamp\www\controller\tarefa.controller.php;f19;32;28;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="tar;PHP:Var Name;c:\wamp\www\controller\tarefa.controller.php;f8;30;12;30;;c:\wamp\www\controller\tarefa.controller.php;f8;30;12;30;;C:\wamp\www\controller\tarefa.controller.php;f8;30;12;30;;;;vposTarefa;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;c:\wamp\www\controller\tarefa.controller.php;f14;36;19;36;;c:\wamp\www\controller\tarefa.controller.php;f14;36;19;36;;C:\wamp\www\controller\tarefa.controller.php;f14;36;19;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="model;PHP:Var Name;c:\wamp\www\controller\tarefa.php;f9;7;15;7;;c:\wamp\www\controller\tarefa.controller.php;f12;5;18;5;;c:\wamp\www\controller\tarefa.controller.php;f12;5;18;5;;c:\wamp\www\controller\tarefa.controller.php;f12;5;18;5;;C:\wamp\www\TarefaController.php;f12;5;18;5;;C:\wamp\www\controller\tarefa.controller.php;f12;5;18;5;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_REQUEST;PHP:Var Name;c:\wamp\www\Codelobster0.php;f10;3;19;3;;c:\wamp\www\index.php;f10;5;19;5;;C:\wamp\www\index.php;f10;5;19;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="accion;PHP:Var Name;c:\wamp\www\Codelobster0.php;f1;9;8;9;;c:\wamp\www\index.php;f4;16;11;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="action;PHP:Var Name;C:\wamp\www\index.php;f4;16;11;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="controller;PHP:Var Name;c:\wamp\www\Codelobster0.php;f1;4;12;4;;c:\wamp\www\index.php;f0;3;11;3;;C:\wamp\www\index.php;f0;3;11;3;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="r;PHP:Var Name;c:\wamp\www\view\tarefa\tarefa.php;f44;15;46;15;;C:\wamp\www\view\tarefa\tarefa.php;f44;15;46;15;;C:\wamp\www\Tarefa.php;f44;14;46;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tar;PHP:Var Name;c:\wamp\www\view\tarefa\tarefa-editar.php;f7;2;11;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="this;PHP:Var Name;c:\wamp\www\view\tarefa\tarefa.php;f18;15;23;15;;C:\wamp\www\view\tarefa\tarefa.php;f18;15;23;15;;C:\wamp\www\Tarefa.php;f18;14;23;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="document;JS:JS Var Name;c:\wamp\www\view\tarefa\tarefa-editar.php;f6;42;14;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\wamp\www\view\tarefa\tarefa.php" crc="1960845498"/>
+		<file name="C:\wamp\www\view\tarefa\tarefa-editar.php" crc="-1324307630"/>
+		<file name="C:\wamp\www\view\header.php" crc="1779083557"/>
+		<file name="C:\wamp\www\view\footer.php" crc="-1619300473"/>
+		<file name="C:\wamp\www\model\tarefa.php" crc="-1674118536"/>
+		<file name="C:\wamp\www\model\database.php" crc="-437743552"/>
+		<file name="C:\wamp\www\css\style.css" crc="2123791663"/>
+		<file name="C:\wamp\www\controller\tarefa.controller.php" crc="-1194822151"/>
+		<file name="C:\wamp\www\TarefaController.php" crc="644080693"/>
+		<file name="C:\wamp\www\Tarefa.php" crc="-1821656628"/>
+		<file name="C:\wamp\www\index.php" crc="746760231"/>
+		<file name="C:\wamp\www\Banco de Dados.txt" crc="-22755286"/>
+	</filescache>
+</project>
